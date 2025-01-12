@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2025 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:title="@string/dtsultra_title">
+
+    <com.android.settingslib.widget.MainSwitchPreference
+        android:defaultValue="true"
+        android:key="dtsultra_enable"
+        android:title="@string/dtsultra_enable"/>
+
+    <ListPreference
+        android:key="dtsultra_profile"
+        android:entries="@array/dtsultra_profile_entries"
+        android:entryValues="@array/dtsultra_profile_values"
+        android:defaultValue="0"
+        android:title="@string/dtsultra_profile_title" />
+
+    <ListPreference
+        android:key="dtsultra_preset"
+        android:entries="@array/dtsultra_preset_entries"
+        android:entryValues="@array/dtsultra_preset_values"
+        android:defaultValue="0"
+        android:title="@string/dtsultra_preset" />
+
+    <co.aospa.dtsultra.nubia.EqualizerPreference
+        android:key="dtsultra_custom_eq"
+        app:defaultValue="@dimen/dtsultra_eq_slider_default"
+        />
+</PreferenceScreen>

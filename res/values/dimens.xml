@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2025 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="mtrl_slider_widget_height" tools:override="true">32dp</dimen>
+    <dimen name="dtsultra_eq_slider_length">300dp</dimen>
+    <dimen name="dtsultra_eq_slider_thumb">16dp</dimen>
+    <dimen name="dtsultra_eq_slider_track">4dp</dimen>
+
+    <item name="dtsultra_eq_slider_min" type="dimen" format="float">-12</item>
+    <item name="dtsultra_eq_slider_max" type="dimen" format="float">12</item>
+    <item name="dtsultra_eq_slider_step" type="dimen" format="float">1</item>
+    <item name="dtsultra_eq_slider_default" type="dimen" format="float">0</item>
+</resources>

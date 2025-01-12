@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2025 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <style name="Theme.MaterialSettings" parent="Theme.Material3.DynamicColors.DayNight">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2025 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="dtsultra_app_title">DTS-X Ultra</string>
+
+    <string name="dtsultra_title">DTS sound</string>
+    <string name="dtsultra_enable">Enable DTS sound</string>
+
+    <string name="dtsultra_profile_title">Profile</string>
+    <string name="dtsultra_preset">Equalizer preset</string>
+
+    <string name="dtsultra_off">Off</string>
+    <string name="dtsultra_on">On</string>
+
+    <string name="dtsultra_on_profile">On (%1$s)</string>
+    <string name="dtsultra_on_profile_preset">On (%1$s / %2$s)</string>
+
+    <!-- Profiles -->
+    <!-- string name="dtsultra_profile_dynamic">Smart selection</string -->
+    <string name="dtsultra_profile_music">Music</string>
+    <string name="dtsultra_profile_movie">Movie</string>
+    <string name="dtsultra_profile_game">Game</string>
+
+    <!-- Equalizer presets -->
+    <string name="dtsultra_preset_rock">Rock</string>
+    <string name="dtsultra_preset_pop">Pop</string>
+    <string name="dtsultra_preset_classical">Classical</string>
+    <string name="dtsultra_preset_off">Off</string>
+    <string name="dtsultra_custom_eq">Customize</string>
+
+    <!-- Custom equalizer bands -->
+    <string name="dtsultra_eq_band_0_title">31</string>
+    <string name="dtsultra_eq_band_1_title">62</string>
+    <string name="dtsultra_eq_band_2_title">125</string>
+    <string name="dtsultra_eq_band_3_title">250</string>
+    <string name="dtsultra_eq_band_4_title">500</string>
+    <string name="dtsultra_eq_band_5_title">1k</string>
+    <string name="dtsultra_eq_band_6_title">2k</string>
+    <string name="dtsultra_eq_band_7_title">4k</string>
+    <string name="dtsultra_eq_band_8_title">8k</string>
+    <string name="dtsultra_eq_band_9_title">16k</string>
+
+    <!-- Error messages -->
+    <string name="dtsultra_license_invalid">BUG: DTS-X Ultra license is not valid</string>
+</resources>

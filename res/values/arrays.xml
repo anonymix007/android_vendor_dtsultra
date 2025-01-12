@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2025 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+
+    <string-array name="dtsultra_profile_entries">
+        <item>@string/dtsultra_profile_music</item>
+        <item>@string/dtsultra_profile_movie</item>
+        <item>@string/dtsultra_profile_game</item>
+    </string-array>
+
+    <string-array name="dtsultra_profile_values">
+        <item>3</item>
+        <item>4</item>
+        <item>6</item>
+    </string-array>
+
+    <string-array name="dtsultra_preset_entries" translatable="false">
+        <item>@string/dtsultra_preset_rock</item>
+        <item>@string/dtsultra_preset_classical</item>
+        <item>@string/dtsultra_preset_pop</item>
+        <item>@string/dtsultra_preset_off</item>
+        <item>@string/dtsultra_custom_eq</item>
+    </string-array>
+
+     <string-array name="dtsultra_preset_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <integer-array name="dtsultra_preset_rock">
+        <item>6</item>
+        <item>6</item>
+        <item>3</item>
+        <item>2</item>
+        <item>2</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </integer-array>
+
+    <integer-array name="dtsultra_preset_classical">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>5</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+    </integer-array>
+
+    <integer-array name="dtsultra_preset_pop">
+        <item>3</item>
+        <item>4</item>
+        <item>3</item>
+        <item>2</item>
+        <item>2</item>
+        <item>3</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>6</item>
+    </integer-array>
+
+    <integer-array name="dtsultra_preset_off">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </integer-array>
+
+    <array name="dtsultra_eq_slider_ids">
+        <item>@id/eq_slider_band_0</item>
+        <item>@id/eq_slider_band_1</item>
+        <item>@id/eq_slider_band_2</item>
+        <item>@id/eq_slider_band_3</item>
+        <item>@id/eq_slider_band_4</item>
+        <item>@id/eq_slider_band_5</item>
+        <item>@id/eq_slider_band_6</item>
+        <item>@id/eq_slider_band_7</item>
+        <item>@id/eq_slider_band_8</item>
+        <item>@id/eq_slider_band_9</item>
+    </array>
+
+</resources>

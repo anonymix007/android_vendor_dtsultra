@@ -1,0 +1,23 @@
+//
+// Copyright (C) 2025 Paranoid Android
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+android_app {
+    name: "DtsUltra",
+
+    srcs: ["src/**/*.java"],
+    resource_dirs: ["res"],
+    certificate: "platform",
+    platform_apis: true,
+    system_ext_specific: true,
+    privileged: true,
+
+    overrides: ["MusicFX"],
+    static_libs: [
+        "com.google.android.material_material-1.13.0-alpha09",
+        "SettingsLib",
+        "androidx.preference_preference",
+    ],
+}
